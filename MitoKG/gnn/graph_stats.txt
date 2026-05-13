@@ -1,0 +1,16 @@
+=== Stage2 Step1 异构图构建报告 ===
+
+节点:
+  gene:    1132  特征维度=57
+  pathway: 815  特征维度=21
+  drug:    305  特征维度=20
+  complex: 297  特征维度=2
+
+边 (正向):
+  gene-interacts-gene:      14763
+  gene-involved_in-pathway: 5990
+  drug-targets-gene:        656
+  gene-member_of-complex:   806
+  pathway-has_child-pathway:804
+
+反向边: 4种（不含PPI，已无向）
